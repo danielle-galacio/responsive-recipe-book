@@ -1,23 +1,32 @@
-H1 {
+H1, .recipetitle {
   font-family: Bely Display, sans-serif;
   color: #292929;
 }
 
-html {
+.recipetitle {
+  text-align: center;
+}
+
+nav, .recipesubtitle {
   font-family: Akagi, sans-serif;
   color: #292929;
+  font-weight: lighter;
+}
+
+article, .rbody {
+  font-family: Bely, serif;
 }
 
 .bgcolor {
   background-color: #f2f4f7;
 }
 
-header a {
+a {
   color: #292929;
   text-decoration: none;
 }
 
-header a:hover {
+a:hover {
   color: #eb4034;
 }
 
@@ -43,6 +52,16 @@ header a:hover {
 
 .btn-ghost:hover {
   color: #eb4034;
+}
+
+main a {
+  text-decoration: none;
+  color: #292929;
+  font-family: Akagi, sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @media only screen and (min-width: 60em) {
