@@ -1,0 +1,63 @@
+H1 {
+  font-family: Bely Display, sans-serif;
+  color: #292929;
+}
+
+html {
+  font-family: Akagi, sans-serif;
+  color: #292929;
+}
+
+.bgcolor {
+  background-color: #f2f4f7;
+}
+
+header a {
+  color: #292929;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #eb4034;
+}
+
+
+.btn {
+  background-color: #133a54;
+  border-color: #133a54;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+  padding: .5em;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #133a54;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #133a54;
+}
+
+.btn-ghost:hover {
+  color: #eb4034;
+}
+
+@media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  header{
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+}
