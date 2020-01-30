@@ -13,6 +13,39 @@ nav, .recipesubtitle, footer {
   font-weight: lighter;
 }
 
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 1.125rem;
+  font-weight: normal;
+  padding: 0;
+  padding-bottom: .2rem;
+  margin: 0;
+}
+
+li {
+  width: 100%;
+}
+
+nav a {
+  white-space: nowrap;
+  padding: .5em .75em;
+  display: block;
+  text-decoration: none;
+  color: #eb4034;
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #eb4034;
+  color: #fff;
+}
+
+
 article, .rbody {
   font-family: Bely, serif;
 }
@@ -64,22 +97,6 @@ ul {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 60em) {
-
-  nav {
-    text-align: right;
-  }
-
-  h1 {
-    text-align: left;
-  }
-
-  header {
-    padding-left: 2.6rem;
-    padding-right: 2.6rem;
-  }
-
-}
 
 .bannermain {
   position: relative;
@@ -107,4 +124,41 @@ ul {
   position: relative;
   display: block;
   width: 100%;
+}
+
+
+
+@media only screen and (min-width: 38em) {
+  .nav ul {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav li {
+    width: 50%;
+  }
+
+  .items ul {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .nav ul {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  .nav li {
+    width: 25%;
+  }
+
+  .items ul {
+    width: 25%;
+  }
+
 }
