@@ -1,5 +1,5 @@
-H1, .recipetitle {
-  font-family: Bely Display, sans-serif;
+h1, .recipetitle {
+  font-family: "Bely Display", sans-serif;
   color: #292929;
 }
 
@@ -29,7 +29,6 @@ a {
 a:hover {
   color: #eb4034;
 }
-
 
 .btn {
   background-color: #133a54;
@@ -74,7 +73,7 @@ ul {
     text-align: left;
   }
 
-  header{
+  header {
     padding-left: 2.6rem;
     padding-right: 2.6rem;
   }
