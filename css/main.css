@@ -13,8 +13,6 @@ nav, .recipesubtitle, footer {
   font-weight: lighter;
 }
 
-
-
 nav ul {
   display: flex;
   flex-direction: row;
@@ -44,7 +42,6 @@ nav a:hover {
   background-color: #eb4034;
   color: #fff;
 }
-
 
 article, .rbody {
   font-family: Bely, serif;
@@ -97,7 +94,6 @@ ul {
   list-style-type: none;
 }
 
-
 .bannermain {
   position: relative;
 }
@@ -126,9 +122,8 @@ ul {
   width: 100%;
 }
 
-
-
 @media only screen and (min-width: 38em) {
+
   .nav ul {
     text-align: center;
     justify-content: space-around;
@@ -142,6 +137,7 @@ ul {
   .items ul {
     width: 50%;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
