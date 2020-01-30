@@ -92,3 +92,19 @@ ul {
   transform: translate(-50%, -50%);
   color: #fff;
 }
+
+.card {
+  background-color: #fff;
+  border: 3px solid  #fafafa;
+  border-radius: 13px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+
+.card > img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
