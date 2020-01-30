@@ -7,7 +7,7 @@ h1, .recipetitle, .banner-content {
   text-align: center;
 }
 
-nav, .recipesubtitle {
+nav, .recipesubtitle, footer {
   font-family: Akagi, sans-serif;
   color: #292929;
   font-weight: lighter;
